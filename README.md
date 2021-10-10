@@ -5,9 +5,10 @@ Movies API using OpenAPI 3
 ## How to run
 
 If this is the first time you are going to run the project, please start
-running the migrations with the following command:
+running the migrations with the following commands:
 
 ```
+npm install
 npm run migrations
 ```
 
