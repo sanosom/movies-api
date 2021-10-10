@@ -1,0 +1,15 @@
+{
+  "server": {
+    "port": {
+      "__name": "SERVER_PORT",
+      "__format": "number"
+    }
+  },
+  "api": {
+    "url": "API_URL"
+  },
+  "db": {
+    "client": "DB_CLIENT",
+    "connection": "DB_CONNECTION"
+  }
+}
