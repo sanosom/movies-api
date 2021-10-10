@@ -45,6 +45,7 @@ module.exports = function () {
   POST.apiDoc = {
     summary: 'User login.',
     operationId: 'login',
+    tags: ['Users'],
     requestBody: {
       required: true,
       content: {

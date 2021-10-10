@@ -58,6 +58,7 @@ module.exports = function () {
   GET.apiDoc = {
     summary: 'Fetch liked movies.',
     operationId: 'getLikedMovies',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],
@@ -91,6 +92,7 @@ module.exports = function () {
   POST.apiDoc = {
     summary: 'Create movie like.',
     operationId: 'createMovieLike',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],
@@ -117,6 +119,7 @@ module.exports = function () {
   DELETE.apiDoc = {
     summary: 'Delete movie like.',
     operationId: 'deleteMovieLike',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],

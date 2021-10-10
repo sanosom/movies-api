@@ -20,6 +20,7 @@ module.exports = function () {
   DELETE.apiDoc = {
     summary: 'Delete all movies.',
     operationId: 'deleteAllMovies',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],

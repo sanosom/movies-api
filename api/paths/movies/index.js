@@ -93,6 +93,7 @@ module.exports = function () {
   GET.apiDoc = {
     summary: 'Fetch movies.',
     operationId: 'getMovies',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],
@@ -129,6 +130,7 @@ module.exports = function () {
   POST.apiDoc = {
     summary: 'Create movie.',
     operationId: 'createMovie',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],
@@ -158,6 +160,7 @@ module.exports = function () {
   PUT.apiDoc = {
     summary: 'Update movie.',
     operationId: 'updateMovie',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],
@@ -197,6 +200,7 @@ module.exports = function () {
   DELETE.apiDoc = {
     summary: 'Delete movie.',
     operationId: 'deleteMovie',
+    tags: ['Movies'],
     security: [{
       bearerAuth: []
     }],

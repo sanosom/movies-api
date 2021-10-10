@@ -16,6 +16,7 @@ module.exports = function () {
   GET.apiDoc = {
     summary: 'Fetch public movies.',
     operationId: 'getPublicMovies',
+    tags: ['Movies'],
     parameters: [
       {
         in: 'query',
