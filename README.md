@@ -18,6 +18,6 @@ Then in order to run the project, run:
 npm run start
 ```
 
-And finally open http:localhost:3000
+And finally open http://localhost:3000
 
 It will open the swagger ui client which will let you interact with the API
