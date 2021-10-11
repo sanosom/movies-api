@@ -4,7 +4,7 @@ const Movie = require('./movie')
 const User = require('./user')
 const apiDoc = require('../api/api-doc')
 
-const limit = 5
+const limit = 20
 
 class Like extends Model {
   static tableName = 'likes'

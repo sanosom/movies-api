@@ -40,6 +40,90 @@ const publicMovies = [{
   synopsis: 'An imposing black structure provides a connection between the past and the future in this enigmatic adaptation of a short story by revered sci-fi author Arthur C. Clarke. When Dr. Dave Bowman (Keir Dullea) and other astronauts are sent on a mysterious mission, their ship\'s computer system, HAL, begins to display increasingly strange behavior, leading up to a tense showdown between man and machine that results in a mind-bending trek through space and time.',
   genre: 'Sci-fi',
   release_date: '2007-10-23',
+}, {
+  name: 'Parasite',
+  rating: 'R',
+  synopsis: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.',
+  genre: 'Drama',
+  release_date: '2019-11-01',
+}, {
+  name: 'Avengers: Endgame',
+  rating: 'PG-13',
+  synopsis: 'Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.',
+  genre: 'Action',
+  release_date: '2019-03-29',
+}, {
+  name: 'Knives Out',
+  rating: 'PG-13',
+  synopsis: 'The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there\'s one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.',
+  genre: 'Drama',
+  release_date: '2019-11-27',
+}, {
+  name: 'Us',
+  rating: 'R',
+  synopsis: 'Accompanied by her husband, son and daughter, Adelaide Wilson returns to the beachfront home where she grew up as a child. Haunted by a traumatic experience from the past, Adelaide grows increasingly concerned that something bad is going to happen. Her worst fears soon become a reality when four masked strangers descend upon the house, forcing the Wilsons into a fight for survival. When the masks come off, the family is horrified to learn that each attacker takes the appearance of one of them.',
+  genre: 'Horror',
+  release_date: '2019-03-22',
+}, {
+  name: 'Toy Story 4',
+  rating: 'G',
+  synopsis: 'Woody, Buzz Lightyear and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky. The adventurous journey turns into an unexpected reunion as Woody\'s slight detour leads him to his long-lost friend Bo Peep. As Woody and Bo discuss the old days, they soon start to realize that they\'re worlds apart when it comes to what they want from life as a toy.',
+  genre: 'Adventure',
+  release_date: '2019-10-01',
+}, {
+  name: 'The Irishman',
+  rating: 'R',
+  synopsis: 'In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.',
+  genre: 'Drama',
+  release_date: '2019-11-01',
+}, {
+  name: 'Black Panther',
+  rating: 'PG-13',
+  synopsis: 'After the death of his father, T\'Challa returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, T\Challa\'s mettle as king -- and as Black Panther -- gets tested when he\'s drawn into a conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people.',
+  genre: 'Action',
+  release_date: '2018-02-16',
+}, {
+  name: 'Mission Impossible: Fallout',
+  rating: 'PG-13',
+  synopsis: 'Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions. Arms dealer John Lark and a group of terrorists known as the Apostles plan to use three plutonium cores for a simultaneous nuclear attack on the Vatican, Jerusalem and Mecca, Saudi Arabia. When the weapons go missing, Ethan and his crew find themselves in a desperate race against time to prevent them from falling into the wrong hands.',
+  genre: 'Action',
+  release_date: '2018-06-27',
+}, {
+  name: 'Blackkklansman',
+  rating: 'R',
+  synopsis: 'Ron Stallworth is the first African-American detective to serve in the Colorado Springs Police Department. Determined to make a name for himself, Stallworth bravely sets out on a dangerous mission: infiltrate and expose the Ku Klux Klan. The detective soon recruits a more seasoned colleague, Flip Zimmerman, into the undercover investigation of a lifetime. Together, they team up to take down the extremist hate group as the organization aims to sanitize its rhetoric to appeal to the mainstream.',
+  genre: 'Drama',
+  release_date: '2018-08-10',
+}, {
+  name: 'Spider-Man: Into The Spider-Verse',
+  rating: 'PG',
+  synopsis: 'Bitten by a radioactive spider in the subway, Brooklyn teenager Miles Morales suddenly develops mysterious powers that transform him into the one and only Spider-Man. When he meets Peter Parker, he soon realizes that there are many others who share his special, high-flying talents. Miles must now use his newfound skills to battle the evil Kingpin, a hulking madman who can open portals to other universes and pull different versions of Spider-Man into our world.',
+  genre: 'Action',
+  release_date: '2018-11-14',
+}, {
+  name: 'Roma',
+  rating: 'R',
+  synopsis: 'Cleo is one of two domestic workers who help Antonio and Sofía take care of their four children in 1970s Mexico City. Complications soon arise when Antonio suddenly runs away with his mistress and Cleo finds out that she\'s pregnant. When Sofía decides to take the kids on vacation, she invites Cleo for a much-needed getaway to clear her mind and bond with the family.',
+  genre: 'Drama',
+  release_date: '2018-12-15',
+}, {
+  name: 'A Star Is Born',
+  rating: 'R',
+  synopsis: 'Seasoned musician Jackson Maine discovers -- and falls in love with -- struggling artist Ally. She has just about given up on her dream to make it big as a singer until Jackson coaxes her into the spotlight. But even as Ally\'s career takes off, the personal side of their relationship is breaking down, as Jackson fights an ongoing battle with his own internal demons.',
+  genre: 'Drama',
+  release_date: '2018-10-05',
+}, {
+  name: 'Coda',
+  rating: 'PG-13',
+  synopsis: 'Seventeen-year-old Ruby (Emilia Jones) is the sole hearing member of a deaf family -- a CODA, child of deaf adults. Her life revolves around acting as interpreter for her parents (Marlee Matlin, Troy Kotsur) and working on the family\'s struggling fishing boat every day before school with her father and older brother (Daniel Durant). But when Ruby joins her high school\'s choir club, she discovers a gift for singing and soon finds herself drawn to her duet partner Miles (Ferdia Walsh-Peelo).',
+  genre: 'Drama',
+  release_date: '2021-08-13',
+}, {
+  name: 'The Suicide Squad',
+  rating: 'R',
+  synopsis: 'Welcome to hell--a.k.a. Belle Reve, the prison with the highest mortality rate in the US of A. Where the worst Super-Villains are kept and where they will do anything to get out--even join the super-secret, super-shady Task Force X. Today\'s do-or-die assignment? Assemble a collection of cons, including Bloodsport, Peacemaker, Captain Boomerang, Ratcatcher 2, Savant, King Shark, Blackguard, Javelin and everyone\'s favorite psycho, Harley Quinn.',
+  genre: 'Action',
+  release_date: '',
 }]
 
 exports.up = function(knex) {

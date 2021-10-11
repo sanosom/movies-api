@@ -2,7 +2,7 @@ const { Model } = require('objection')
 
 const apiDoc = require('../api/api-doc')
 
-const limit = 5
+const limit = 20
 
 class Movie extends Model {
   static tableName = 'movies'
