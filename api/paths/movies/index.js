@@ -15,8 +15,12 @@ module.exports = function () {
     const user = req.user.id
 
     const movies = await Movie.findByUser(user, page)
+    const [ result ] = await Movie.countPrivate(user)
 
-    res.status(200).json(movies)
+    res.status(200).json({
+      movies,
+      count: result.count,
+    })
   }
 
   async function POST(req, res, next) {
@@ -113,9 +117,17 @@ module.exports = function () {
         content: {
           'application/json': {
             schema: {
-              type: 'array',
-              items: {
-                $ref: '#/components/schemas/Movie',
+              type: 'object',
+              properties: {
+                movies: {
+                  type: 'array',
+                  items: {
+                    $ref: '#/components/schemas/Movie',
+                  },
+                },
+                count: {
+                  type: 'number',
+                },
               },
             },
           },

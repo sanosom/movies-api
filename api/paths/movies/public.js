@@ -9,8 +9,12 @@ module.exports = function () {
     const page = req.query.page || 1
 
     const movies = await Movie.findPublic(page)
+    const [ result ] = await Movie.countPublic()
 
-    res.status(200).json(movies)
+    res.status(200).json({
+      movies,
+      count: result.count
+    })
   }
 
   GET.apiDoc = {
@@ -33,9 +37,17 @@ module.exports = function () {
         content: {
           'application/json': {
             schema: {
-              type: 'array',
-              items: {
-                $ref: '#/components/schemas/Movie',
+              type: 'object',
+              properties: {
+                movies: {
+                  type: 'array',
+                  items: {
+                    $ref: '#/components/schemas/Movie',
+                  },
+                },
+                count: {
+                  type: 'number',
+                },
               },
             },
           },

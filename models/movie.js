@@ -58,6 +58,14 @@ class Movie extends Model {
 
     return deleted > 0
   }
+
+  static async countPublic() {
+    return await this.query().count('id as count').where('user', null)
+  }
+
+  static async countPrivate(user) {
+    return await this.query().count('id as count').where('user', user)
+  }
 }
 
 module.exports = Movie
